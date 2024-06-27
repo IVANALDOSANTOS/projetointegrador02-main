@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="/formValidation.js" defer></script>
+</head>
+<body>
+    <header id="hforms">
+        <h1>Formulário de Contato</h1>
+    </header>
+    <main>
+        <form action="/index.html" id="form-contato" type="submit">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required minlength="3" maxlength="50">
+                <p id="nomehelper" class="helper-text" style="margin-top: -15px;"></p>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <p id="emailhelper" class="helper-text" style="margin-top: -15px;"></p>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required minlength="11" maxlength="11">
+                <p id="telhelper" class="helper-text" style="margin-top: -15px;"></p>
+            </section>
+
+            <section>
+                <h2>Mensagem</h2>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required minlength="30" maxlength="100"></textarea>
+            </section>
+            <button type="submit" id="enviar-msg">Enviar</button>
+        </form>
+        <h3>Voltar pra <a href="/index.html">Home</a></h2>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Desenvolvido pelo Grupo 2 da Turma 22 &copy</p>
+            <p>Ivanaldo Queiroz & Wiston Thiago</p>
+        </div>
+    </footer>
+</body>
+</html>
