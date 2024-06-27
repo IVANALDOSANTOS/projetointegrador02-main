@@ -36,7 +36,7 @@ let postsPrincipais = [
     campoCidade:"Belo Horizonte",
     campoGithub:"https://github.com/WistonThiago",
     campoInstagram:"",
-    campoLinkedin:"https://www.linkedin.com/in/joao-francisco-amigo/"
+    campoLinkedin:"https://github.com/WistonThiago"
   },
   {
     campoBanner:"https://media2.giphy.com/media/20XFN3vWiU79fBQgBc/200w.webp?cid=ecf05e47tzaj7pc9hfo92cekjl3fdf4ftjdahnw1zps76g0m&rid=200w.webp&ct=g",
